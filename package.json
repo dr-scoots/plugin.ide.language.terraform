@@ -9,6 +9,9 @@
       "email": "abawcom@gmail.com"
     }
   ],
+  "engines": {
+    "c9": ">=3.0.0"
+  }
   "repository": {
     "type": "git",
     "url": "http://github.com/clearly/plugin.ide.language.terraform.git"

@@ -68,7 +68,7 @@ define(function(require, exports, module) {
             next : "comment"
           }, {
             token : "keyword",
-            regex : "\\b(?:provider|data|resource|variable|output|module)\\b",
+            regex : "\\b(?:provider|data|resource|variable|output|module|atlas)\\b",
             next : "tftype_start"
           }, {
             token : "keyword.other",
@@ -117,6 +117,10 @@ define(function(require, exports, module) {
           {
             token : "text",
             regex : "\\s+"
+          }, {
+            token : "paren.lparen",
+            regex : "{",
+            next  : "def_start"
           }, {
             token : "string",
             regex : '"',

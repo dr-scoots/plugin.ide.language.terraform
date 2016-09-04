@@ -68,7 +68,7 @@ define(function(require, exports, module) {
             next : "comment"
           }, {
             token : "keyword",
-            regex : "\\b(?:provider|data|resource|variable)\\b",
+            regex : "\\b(?:provider|data|resource|variable|output)\\b",
             next : "tftype_start"
           }, {
             token : "constant.character.escape",

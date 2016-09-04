@@ -71,7 +71,7 @@ define(function(require, exports, module) {
             regex : "\\b(?:provider|data|resource|variable|output|module)\\b",
             next : "tftype_start"
           }, {
-            token : "constant.character.escape",
+            token : "keyword.other",
             regex : "EOF",
           }
         ],
@@ -83,7 +83,7 @@ define(function(require, exports, module) {
             token : "keyword.operator", // single line
             regex : '=',
           }, {
-            token : "constant.character.escape",
+            token : "keyword.other",
             regex : "EOF",
           }, {
             token : "string", // single line

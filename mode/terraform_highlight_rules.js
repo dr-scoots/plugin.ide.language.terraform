@@ -31,6 +31,9 @@
 define(function(require, exports, module) {
 'use strict';
 
+  var functionList =  "base64decode|base64encode|base64sha256|sha256|cidrhost|cidrnetmask|cidrsubnet|coalesce|compact|concat|distinct|element|file|format|" +
+                      "formatlist|index|join|jsonencode|keys|length|list|lookup|lower|map|merge|md5|replace|sha1|signum|sort|split|trimspace|upper|uuid|values";
+
   // var keywordMapper = this.createKeywordMapper({
   //         "variable.language":
   //           "base64decode|base64encode|base64sha256|sha256|cidrhost|cidrnetmask|cidrsubnet|coalesce|compact|concat|distinct|element|file|format|" +
@@ -180,6 +183,9 @@ define(function(require, exports, module) {
         ],
         "reference" : [
           {
+            token : "entity.name.function",
+            regex : "(?:" + functionList + ")",
+          }, {
             token : "entity.name",
             regex : /[^\}]+/,
           }, {

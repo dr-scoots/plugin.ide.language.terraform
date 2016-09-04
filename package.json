@@ -1,7 +1,7 @@
 {
   "name": "plugin.ide.language.terraform",
   "description": "Cloud9 language support for Terraform",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "author": "Aaron Bawcom",
   "contributors": [
     {

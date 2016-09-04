@@ -1,1 +1,2 @@
-This is the Cloud9 default plugin example
+# plugin.ide.language.terraform
+Provide Terraform language support for Cloud9

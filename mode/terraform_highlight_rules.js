@@ -70,6 +70,9 @@ define(function(require, exports, module) {
             token : "keyword",
             regex : "\\b(?:provider|data|resource)\\b",
             next : "tftype_start"
+          }, {
+            token : "constant.character.escape",
+            regex : "EOF",
           }
         ],
         "def_start" : [
@@ -79,6 +82,9 @@ define(function(require, exports, module) {
           }, {
             token : "keyword.operator", // single line
             regex : '=',
+          }, {
+            token : "constant.character.escape",
+            regex : "EOF",
           }, {
             token : "string", // single line
             regex : '"',

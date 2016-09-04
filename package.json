@@ -9,6 +9,7 @@
       "email": "abawcom@gmail.com"
     }
   ],
+  "permissions": "world",
   "engines": {
     "c9": ">=3.0.0"
   },

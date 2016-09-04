@@ -1,7 +1,7 @@
 {
   "name": "plugin.ide.language.terraform",
   "description": "Cloud9 language support for Terraform",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Aaron Bawcom",
   "contributors": [
     {
@@ -11,11 +11,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/clearly/plugin.ide.language.terraform"
   },
   "plugins": {
     "plugin.ide.language.terraform": {}
   },
-  "categories": ["miscellaneous"],
-  "licenses": []
+  "categories": ["language"],
+  "licenses": [ "MIT" ]
 }

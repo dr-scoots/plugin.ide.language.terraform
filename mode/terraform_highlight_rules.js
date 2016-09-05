@@ -174,7 +174,7 @@ define(function(require, exports, module) {
             next  : "reference"
           }, {
             token : "string",
-            regex : '[^"\\\\]+'
+            regex : '[^"\\\\\$]+'
           }, {
             token : "string",
             regex : '"',
